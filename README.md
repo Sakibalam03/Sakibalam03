@@ -13,7 +13,7 @@ I'm currently pursuing a Bachelor of Technology in Computer Science Engineering 
 ## 🚀 Notable Projects
 
 * **Resume Scanner:** An AI-powered resume scanner using `all-MiniLM-L6-v2` by semantic similarity to job descriptions. It supports PDF/DOCX/images with OCR fallback and sentence transformer embeddings for intelligent matching.
-* **P&ID Classifier:** Developed a YOLOv8 model trained on a custom dataset [cite: 8], achieving 90% accuracy on P&ID component identification. This project supports industry standard for P&ID formats and maintains ISO markings for segregated classification.
+* **P&ID Classifier:** Developed a YOLOv8 model trained on a custom dataset , achieving 98% accuracy on P&ID component identification. This project supports industry standard for P&ID formats and maintains ISO markings for segregated classification.
 * **Note Ninja:** A real-time audio transcription tool using `OpenAI Whisper`  that can seamlessly detect audio & transcribe with over 90% accuracy. It also supports transcribing of audio files  and features scalable token windowing for long document parsing (10k+ tokens).
 
 ## 🏆 Achievements & Interests
