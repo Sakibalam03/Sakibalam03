@@ -1,26 +1,116 @@
-## Hi there 👋
-I'm Sakib Alam, a highly motivated AI/ML enthusiast with a strong foundation in web development. I specialize in creating user-friendly applications for deploying AI/ML models. I'm a dedicated and collaborative professional, offering strong leadership and communication skills, alongside a fast learning ability and creative problem-solving approach.
-I'm currently pursuing a Bachelor of Technology in Computer Science Engineering at Kalinga Institute of Industrial University, Bhubaneswar.
+# Hey, I'm Sakib 👋
 
-## 🛠️ Technical Skills
+I build production ML systems, computer vision pipelines, full-stack inference infrastructure and tinker with NLP. Currently finishing my B.Tech in CS at KIIT while working as an ML Engineer.
 
-* **Languages:** Python, Java, C, JavaScript, HTML/CSS 
-* **Databases:** MongoDB, MySQL, PostgreSQL 
-* **Frameworks:** Flask, React, Next.js, Node.js 
-* **Libraries:** pandas, NumPy, Matplotlib, Scikit-learn, OpenCV, YOLOv8 
-* **Developer Tools:** Git, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse 
+---
 
-## 🚀 Notable Projects
+## What I'm Working On
 
-* **Resume Scanner:** An AI-powered resume scanner using `all-MiniLM-L6-v2` by semantic similarity to job descriptions. It supports PDF/DOCX/images with OCR fallback and sentence transformer embeddings for intelligent matching.
-* **P&ID Classifier:** Developed a YOLOv8 model trained on a custom dataset , achieving 98% accuracy on P&ID component identification. This project supports industry standard for P&ID formats and maintains ISO markings for segregated classification.
-* **Note Ninja:** A real-time audio transcription tool using `OpenAI Whisper`  that can seamlessly detect audio & transcribe with over 90% accuracy. It also supports transcribing of audio files  and features scalable token windowing for long document parsing (10k+ tokens).
+- 🔬 Turning a Diabetic Retinopathy screening project into a medical AI product for Tier 2/3 India
+- ⚙️ Production ML pipelines at NRGTech : real-time inference, async FastAPI, Redis, S3
+- 📚 Exploring High Performance Computing and Distributed Systems
 
-## 🏆 Achievements & Interests
+---
 
-* **Finalist:** COMPOSIT: Case Study Competition at IIT Kharagpur out of 400+ teams from IITs, NITs and IIMs.
-* **Presenter:** Solo B.Tech presenter for research paper "Sustainable Urban Development in Bhubaneswar's Slums" at ICMR 2025, KIIT University  and "Application of Machine Learning in Shortlisting Resumes" at ICUS 2023, South Asian University.
-* **Patent Holder:**
-    * AUTOMATED RESUME SCREENING USING NLP & SK-LEARN (ID: 202431081804) 
-    * SOLAR POWERED IOT BASED INDORE AIR QUALITY ANALYSIS (ID: 202331028081) 
-* **Open Source & Community:** Spearheaded Marketing R&D within FED (TBI), KIIT University, to introduce novel marketing and outreach strategies, facilitating an overall 40% growth in user interactions and footfall in events. Organized and Coordinated venue logistics, guest facilitation, and participant registration for the society’s Flagship Event Omega attended by over 800 students and external partners and collaborators. Chaired as Panelist for Start-up Showcase event and organized Proof of Community Backpacking India blockchain event as part of a 12-member OC, leading to overall 20% increase in new membership sign-ups.
+## Some of my Work
+
+### 🧠 Diabetic Retinopathy Screening Assistant
+Fine-tuned **EfficientNet-B0** on a 4,000-image corpus (IDRiD + APTOS 2019) for 5-class ETDRS severity grading. Implemented Grad-CAM explainability via custom PyTorch backward hooks — outputs spatially-localized heatmaps over fundus images. Generates structured clinical PDF reports with referral decisions.
+
+`PyTorch` `EfficientNet` `Grad-CAM` `OpenCV` `CLAHE` `Streamlit` `fpdf2`
+
+[→ View Repo](https://github.com/Sakibalam03/Diabetic-Retinopathy-Screening-Assistant)
+
+---
+
+### 🏭 P&ID Classifier
+Built a **YOLOv8** classification system on a proprietary industrial dataset, hitting 95%+ validation accuracy on P&ID component detection across 11 classes. Deployed with Redis caching and Kubernetes orchestration.
+
+`YOLOv8` `Python` `Flask` `Redis` `Kubernetes` `Next.js`
+
+---
+
+### 🔍 Fazri Analyzer — Campus Security Intelligence
+Architected an enterprise-grade entity resolution and security monitoring system integrating **6+ heterogeneous data sources** through FastAPI microservices. Combined LSTM networks for temporal anomaly detection with XGBoost for real-time location prediction. Full production stack with AWS deployment.
+
+`FastAPI` `PostgreSQL` `Redis` `Neo4j` `LSTM` `XGBoost` `Next.js 14` `AWS`
+
+---
+
+### 🎙️ Note Ninja
+Voice-to-summary pipeline using **OpenAI Whisper** for transcription and **BART** for summarization. Handles multiple audio formats, scalable token windowing for 10k+ token documents. RESTful API with automatic upload and processing.
+
+`Whisper` `BART` `Flask` `Python`
+
+---
+
+### 📄 Resume Scanner
+Semantic similarity engine using **all-MiniLM-L6-v2** sentence transformers for intelligent resume-to-JD matching. 90%+ text extraction reliability with OCR fallback via Tesseract and PyMuPDF.
+
+`Sentence Transformers` `Tesseract` `PyMuPDF` `Python`
+
+---
+
+## Stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=opencv&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+---
+
+## Recognition
+
+| Competition | Result | Scale |
+|---|---|---|
+| iHack Hackathon — IIT Bombay E-Summit 2025 | 🥈 Top 5 | 2500+ teams |
+| Ethos Hackathon — IIT Guwahati | 🏅 Top 4 | 2000+ teams |
+| Startup Series BootCamp — IIT Madras | 🏅 Top 10 | 800+ teams |
+| Pravega Innovation Summit — IISc Bangalore | 🏅 Top 10 | 300+ teams |
+| Keploy Fellowship Program | 🌍 Top 1% | 18,000 candidates |
+| COMPOSIT, Synergy Summit, Valorem — IIT KGP, NIT Kurukshetra, NMIMS Bengaluru | 🏅 Finalist | 500+ teams |
+| Chronos V1 — AISOC, KIIT University | 🏅 Finalist | 70+ teams |
+
+
+**Conferences**
+- *"Application of ML in Shortlisting Resumes"* — ICUS 2023, South Asian University
+- *"Sustainable Urban Development in Bhubaneswar's Slums"* — ICMR 2025, KIIT University
+- *"Automated Valve Detection in P&ID Diagrams using YOLOv8m"* — CINE 2026, KIIT University
+
+---
+
+## Currently Open To
+
+- ML Engineer / AI Engineer roles (SDE with ML focus welcome)
+- Remote or onsite — India and international
+- Startups moving fast > large corps moving slow
+
+---
+
+## Let's Talk
+
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sakibalam2003)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sarocks662@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sakibalam03)
+
+</div>
