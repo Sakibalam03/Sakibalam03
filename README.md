@@ -28,20 +28,6 @@ Architected an enterprise-grade entity resolution and security monitoring system
 
 ---
 
-### 🎙️ Note Ninja
-Voice-to-summary pipeline using **OpenAI Whisper** for transcription and **BART** for summarization. Handles multiple audio formats, scalable token windowing for 10k+ token documents. RESTful API with automatic upload and processing.
-
-`Whisper` `BART` `Flask` `Python`
-
----
-
-### 📄 Resume Scanner
-Semantic similarity engine using **all-MiniLM-L6-v2** sentence transformers for intelligent resume-to-JD matching. 90%+ text extraction reliability with OCR fallback via Tesseract and PyMuPDF.
-
-`Sentence Transformers` `Tesseract` `PyMuPDF` `Python`
-
----
-
 ## Stack
 
 <div align="center">
