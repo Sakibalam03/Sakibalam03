@@ -4,14 +4,6 @@ I build production ML systems, computer vision pipelines, full-stack inference i
 
 ---
 
-## What I'm Working On
-
-- 🔬 Turning a Diabetic Retinopathy screening project into a medical AI product for Tier 2/3 India
-- ⚙️ Production ML pipelines at NRGTech : real-time inference, async FastAPI, Redis, S3
-- 📚 Exploring High Performance Computing and Distributed Systems
-
----
-
 ## Some of my Work
 
 ### 🧠 Diabetic Retinopathy Screening Assistant
