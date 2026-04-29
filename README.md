@@ -11,12 +11,11 @@ Fine-tuned **EfficientNet-B0** on a 4,000-image corpus (IDRiD + APTOS 2019) for 
 
 `PyTorch` `EfficientNet` `Grad-CAM` `OpenCV` `CLAHE` `Streamlit` `fpdf2`
 
-[→ View Repo](https://github.com/Sakibalam03/Diabetic-Retinopathy-Screening-Assistant)
 
 ---
 
 ### 🏭 P&ID Classifier
-Built a **YOLOv8** classification system on a proprietary industrial dataset, hitting 95%+ validation accuracy on P&ID component detection across 11 classes. Deployed with Redis caching and Kubernetes orchestration.
+Built a **YOLOv8** classification system on a proprietary industrial dataset, hitting 95%+ validation accuracy on P&ID component detection across 10 classes with metadata extraction using OCR. Deployed with Redis caching and Kubernetes orchestration.
 
 `YOLOv8` `Python` `Flask` `Redis` `Kubernetes` `Next.js`
 
